@@ -82,7 +82,7 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={post.title} />
+				<meta property="og:title" content={post?.title === "next-news-lvpz.vercel.app" ? "&nbsp;" : "&nbsp;"} />
 				<link rel="canonical" href={`https://${host}/${path}`} />
 				<meta property="og:description" content= " " />
 				<meta property="og:url" content={" "} />
