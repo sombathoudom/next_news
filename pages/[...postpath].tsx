@@ -82,11 +82,14 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={'the rock'}/>
+			
 				<link rel="canonical" href={`https://${host}/${path}`} />
 				<meta property="og:description" content= " " />
-				<meta property="og:url" content={" "} />
-				<meta property="og:type" content="article" />
+				<meta property="og:url" content={"https://next-news-lvpz.vercel.app/best-fashion-news-of-november-2022"} />
+				<meta property="og:type" content="website" />
+				<meta property="og:determiner" content="" />
+				
+				<meta property="og:title" content={'the rock'}/>
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:site_name" content={" "} />
 				<meta property="article:published_time" content={" "} />
