@@ -88,7 +88,7 @@ const Post: React.FC<PostProps> = (props) => {
 				<meta property="og:url" content={"https://next-news-lvpz.vercel.app/best-fashion-news-of-november-2022"} />
 				<meta property="og:type" content="website" />
 				<meta property="og:determiner" content="an" />
-				<meta property="og:title" content={''}/>
+				<meta property="og:title" content="false"/>
 				<meta property="og:locale" content="en_US" />
 				<meta property="og:site_name" content={" "} />
 				<meta property="article:published_time" content={" "} />
