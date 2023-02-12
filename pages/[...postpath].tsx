@@ -82,7 +82,7 @@ const Post: React.FC<PostProps> = (props) => {
 	return (
 		<>
 			<Head>
-				<meta property="og:title" content={"."} />
+				
 				<link rel="canonical" href={`https://${host}/${path}`} />
 				<meta property="og:description" content= " " />
 				<meta property="og:url" content={" "} />
@@ -96,7 +96,7 @@ const Post: React.FC<PostProps> = (props) => {
 					property="og:image:alt"
 					content={post.featuredImage.node.altText || post.title}
 				/>
-				<title>{" "}</title>
+				
 			</Head>
 			<div className="post-container">
 				<h1>{post.title}</h1>
